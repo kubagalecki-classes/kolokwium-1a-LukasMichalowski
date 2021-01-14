@@ -7,7 +7,11 @@
 #include <vector>
 
 // tutaj funkcja sortujTagliatelle
-template <typename T, typename Y> Tagliatelle sortujTagliatelle(T t, Y y)
+bool funktor(Tagliatelle x,Tagliatelle y){
+   
+    return x<y;
+}
+template <typename T, typename Y>  sortujTagliatelle(T t, Y y)
 {
-  
+std::sort(t,y,funktor);
 }
