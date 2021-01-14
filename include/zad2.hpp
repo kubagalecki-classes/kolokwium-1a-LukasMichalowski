@@ -9,14 +9,10 @@
 // tutaj definicja metody gotujMakaron
 
 class Penne: public Makaron{
-
-double ileMaki(unsigned P) {
-
-        return  (double)P;
-
-    }
-
+double ileMaki(unsigned P)  { return  (double)P;}
 };
+
+
 
 Makaron* Makaron::  gotujMakaron(std::string x){
     Makaron *mac;
