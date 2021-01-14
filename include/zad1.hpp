@@ -2,7 +2,7 @@
 
 class Makaron{
 public:
-virtual double ileMaki(unsigned P) const;
+virtual double ileMaki(unsigned P) const = 0;
 static Makaron* gotujMakaron(const std::string & x) ;
 };
 
