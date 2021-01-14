@@ -14,8 +14,7 @@ double ileMaki(unsigned P)  { return  (double)P;}
 
 
 
-Makaron* Makaron::  gotujMakaron(std::string x){
-    Makaron *mac;
+Makaron* Makaron::  gotujMakaron(const std::string & x){
     if(x.front() == x.back()){
         return new Tagliatelle(3.14,0.42,0.1);
     }

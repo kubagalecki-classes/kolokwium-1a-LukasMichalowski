@@ -3,7 +3,7 @@
 class Makaron{
 public:
 virtual double ileMaki(unsigned P) const;
-static Makaron* gotujMakaron(std::string x);
+static Makaron* gotujMakaron(const std::string & x) ;
 };
 
 // Zad1
