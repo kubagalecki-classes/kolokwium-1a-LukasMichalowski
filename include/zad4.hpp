@@ -5,6 +5,22 @@
 // tutaj funkcja obliczMake
 double obliczMake(const std::vector<Tagliatelle> & V)
 {
-double M;
+double M=0;
+int x=V.size();
+for(int i = 0; i<V.size();++i){
+M+=V[i].ileMaki*x;
+x-=(i+1);
+}
 
+if(M>100){
+  throw int 5;
+}
+else if(M<100 && M>50)
+{
+  throw double 1243421.;
+}
+else
+{
+  return M;
+}
 }

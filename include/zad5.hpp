@@ -7,3 +7,7 @@
 #include <vector>
 
 // tutaj funkcja sortujTagliatelle
+template <typename T, typename Y> Tagliatelle sortujTagliatelle(T t, Y y)
+{
+  
+}
